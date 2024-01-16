@@ -1,5 +1,3 @@
-console.log('Test1')
-
 //1. I am declaring the variables with user input.
 const miles = prompt('Enter Number Here to convert from Miles to Kilometers');
 
@@ -20,9 +18,7 @@ const numbRoundedResult = Number(roundedResult);
 //4. I am loging the result
 console.log(`The distance of  ${numbMiles} Miles is equal to ${roundedResult} Kilometers`);
 
-console.log(typeof numbRoundedResult);
+//5. I am adding an alert with the final answer
+alert(`The distance of ${numbMiles} Miles is equal to ${numbRoundedResult} Kilometers`);
 
-
-console.log(typeof numbKM);
-console.log(kilometers)
 
